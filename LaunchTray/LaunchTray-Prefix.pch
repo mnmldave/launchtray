@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'LaunchTray' target in the 'LaunchTray' project
+//
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#endif
