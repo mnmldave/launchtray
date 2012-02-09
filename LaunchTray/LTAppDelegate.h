@@ -8,8 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface LTAppDelegate : NSObject <NSApplicationDelegate>
+@interface LTAppDelegate : NSObject <NSApplicationDelegate, NSMenuDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (nonatomic,retain) NSStatusItem *statusItem;
+@property (nonatomic,retain) NSMenu *statusMenu;
+
+@property (nonatomic,retain) NSArray *userAgents;
+
+- (void)updateUserAgents;
+- (void)updateStatusMenu;
 
 @end

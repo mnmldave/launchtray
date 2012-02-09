@@ -17,6 +17,8 @@
 		5503F18914E35A3300EEBA04 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5503F16914E35A3200EEBA04 /* Cocoa.framework */; };
 		5503F19114E35A3300EEBA04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5503F18F14E35A3300EEBA04 /* InfoPlist.strings */; };
 		5503F19414E35A3300EEBA04 /* LaunchTrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5503F19314E35A3300EEBA04 /* LaunchTrayTests.m */; };
+		5503F1A114E37C9400EEBA04 /* service-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5503F19F14E37C9400EEBA04 /* service-off.png */; };
+		5503F1A214E37C9400EEBA04 /* service-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5503F1A014E37C9400EEBA04 /* service-on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +37,23 @@
 		5503F16C14E35A3200EEBA04 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5503F16D14E35A3200EEBA04 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5503F16E14E35A3200EEBA04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5503F17114E35A3200EEBA04 /* LaunchTray-Info.plist */ = {isa = PBXFileReference; path = "LaunchTray-Info.plist"; sourceTree = "<group>"; };
+		5503F17114E35A3200EEBA04 /* LaunchTray-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaunchTray-Info.plist"; sourceTree = "<group>"; };
 		5503F17314E35A3200EEBA04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5503F17514E35A3200EEBA04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5503F17714E35A3200EEBA04 /* LaunchTray-Prefix.pch */ = {isa = PBXFileReference; path = "LaunchTray-Prefix.pch"; sourceTree = "<group>"; };
+		5503F17714E35A3200EEBA04 /* LaunchTray-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LaunchTray-Prefix.pch"; sourceTree = "<group>"; };
 		5503F17914E35A3200EEBA04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5503F17B14E35A3200EEBA04 /* LTAppDelegate.h */ = {isa = PBXFileReference; path = LTAppDelegate.h; sourceTree = "<group>"; };
+		5503F17B14E35A3200EEBA04 /* LTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAppDelegate.h; sourceTree = "<group>"; };
 		5503F17C14E35A3200EEBA04 /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
 		5503F17F14E35A3200EEBA04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5503F18614E35A3300EEBA04 /* LaunchTrayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchTrayTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5503F18714E35A3300EEBA04 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5503F18E14E35A3300EEBA04 /* LaunchTrayTests-Info.plist */ = {isa = PBXFileReference; path = "LaunchTrayTests-Info.plist"; sourceTree = "<group>"; };
+		5503F18E14E35A3300EEBA04 /* LaunchTrayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaunchTrayTests-Info.plist"; sourceTree = "<group>"; };
 		5503F19014E35A3300EEBA04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5503F19214E35A3300EEBA04 /* LaunchTrayTests.h */ = {isa = PBXFileReference; path = LaunchTrayTests.h; sourceTree = "<group>"; };
+		5503F19214E35A3300EEBA04 /* LaunchTrayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchTrayTests.h; sourceTree = "<group>"; };
 		5503F19314E35A3300EEBA04 /* LaunchTrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchTrayTests.m; sourceTree = "<group>"; };
+		5503F19D14E35EF900EEBA04 /* LTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTUtils.h; sourceTree = "<group>"; };
+		5503F19F14E37C9400EEBA04 /* service-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "service-off.png"; sourceTree = "<group>"; };
+		5503F1A014E37C9400EEBA04 /* service-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "service-on.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +121,9 @@
 			children = (
 				5503F17B14E35A3200EEBA04 /* LTAppDelegate.h */,
 				5503F17C14E35A3200EEBA04 /* LTAppDelegate.m */,
+				5503F19D14E35EF900EEBA04 /* LTUtils.h */,
 				5503F17E14E35A3200EEBA04 /* MainMenu.xib */,
+				5503F19E14E37C9400EEBA04 /* Images */,
 				5503F17014E35A3200EEBA04 /* Supporting Files */,
 			);
 			path = LaunchTray;
@@ -151,6 +158,15 @@
 				5503F18F14E35A3300EEBA04 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5503F19E14E37C9400EEBA04 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5503F19F14E37C9400EEBA04 /* service-off.png */,
+				5503F1A014E37C9400EEBA04 /* service-on.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +243,8 @@
 				5503F17414E35A3200EEBA04 /* InfoPlist.strings in Resources */,
 				5503F17A14E35A3200EEBA04 /* Credits.rtf in Resources */,
 				5503F18014E35A3200EEBA04 /* MainMenu.xib in Resources */,
+				5503F1A114E37C9400EEBA04 /* service-off.png in Resources */,
+				5503F1A214E37C9400EEBA04 /* service-on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
